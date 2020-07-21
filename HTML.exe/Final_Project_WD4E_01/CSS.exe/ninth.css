@@ -1,0 +1,37 @@
+/*Let's try out the box model, should we? It's time to try somethiung different*/
+body {
+    background-color: rgb(121, 90, 168);
+}
+h1 {
+    color: #140a4b;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+    font-weight: bolder;
+}
+h2 {
+    color: rgb(235, 215, 38); 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 200%;
+    font-weight: bolder;
+}
+a {
+    background-color: azure;
+    color: rgb(0, 0, 0) ;
+    font-family: monospace;
+    font-size: 150%;
+    font-style: bolder;
+    border: solid 2px #e759c9;
+    display: inline-block;
+    height: 180px;
+    width : 150px;
+    margin : 0px 0px 50px 50px;
+    padding: 10px;
+    float : left;
+}
+
+section {
+        background-color : rgb(24, 12, 68);
+        color : white;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight : bolder; 
+}

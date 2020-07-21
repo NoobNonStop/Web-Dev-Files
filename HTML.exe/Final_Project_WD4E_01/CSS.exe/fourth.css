@@ -1,0 +1,22 @@
+body {
+     background-color : #201941;
+     color : white;
+     font-family : monospace;
+     font-size : 18 px;
+     font-weight: bolder;
+}
+h1 {
+    color : rgb(247, 155, 170);
+    font-size : 30 px;
+    font-family : monospace;
+    font-weight : bolder;
+}
+h2 {
+     color : rgb(247, 155, 170);
+    font-size : 24 px;
+    font-family : monospace;
+    font-weight : bolder;
+}
+a {
+    color : white
+}

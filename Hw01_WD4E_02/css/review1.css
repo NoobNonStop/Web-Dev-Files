@@ -1,0 +1,109 @@
+header{
+	
+	text-align:center;
+	background-image:url('C:/Users/lenovo/Desktop/css/flywheel.jpg'); 
+	padding:15px;
+	
+}
+h1{
+	
+	color:#ffffff;
+	text-transform:uppercase;
+}
+h2{
+	
+	text-transform:uppercase;
+	color:#000000
+}
+
+nav>a{
+	display:inline-block;
+	color:#000000;
+	background-color:rgba(255,255,255,0.2);
+	text-decoration:none;
+	border-radius:5px;
+	padding-top:25px;
+	padding-right:50px;
+	padding-bottom:25px;
+	padding-left:50px;
+	margin:50px;
+	font-weight:bold; 
+	
+	
+}
+body{
+	margin:5px;
+	padding:5px;
+	
+	
+}
+img{
+	display:block;
+	
+	margin-left: auto;
+  	margin-right: auto;
+  	margin-top:18px ;
+  	margin-bottom: 18px;
+  
+
+	width:70%;
+	
+	border:solid 3px #000000;
+
+}
+	
+
+nav>a:hover{
+	background-color:#ffffff;
+}
+.right{
+	
+	float:left;
+	width:70%;
+	margin-left:10px;
+	font-weight:bold; 
+}
+.left{
+	
+	background-color:#515e71;
+	width:20%;
+	height:700px;
+	
+	float:left;
+}
+.active{
+
+	background-color:#00ff00;
+}
+table{
+	margin:0 auto;
+	border:solid 20px #ffffff;
+	border-radius:25px 25px 0 0;
+	
+
+	
+}
+th{
+	background-color:#00ff00;
+	text-align:left;
+
+
+	}
+tr:nth-child(even){
+	background-color:rgb(76, 175, 80);
+	opacity:0.6;
+}
+tr:nth-child(odd){
+	background-color:rgb(76, 175, 80);
+	opacity:0.6;
+}
+tr:hover{
+	background-color:rgb(76,175,80);
+	opacity:1;
+}
+td,th{
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right: 10px
+}

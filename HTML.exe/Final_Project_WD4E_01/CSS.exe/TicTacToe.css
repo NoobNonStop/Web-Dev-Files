@@ -1,0 +1,13 @@
+td {
+    height: 100px;
+    width: 100px;
+}
+.cmiddle {
+    border-left: #000000 2px solid;
+    border-right: #000000 2px solid;
+
+}
+.rmiddle > td {
+    border-top: #000000 2px solid;
+    border-bottom: #000000 2px solid;
+}

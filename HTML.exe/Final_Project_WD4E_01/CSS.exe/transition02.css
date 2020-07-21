@@ -1,0 +1,86 @@
+body {
+    background-color: #000000;
+
+}
+h1, h2 {
+    color: #ffffff;
+    margin: 2%;
+    padding: 2%;
+
+}
+section {
+    background-color: #282828;
+    color: white;
+    width: 15%;
+    height: 200px;
+    padding: 3%;
+    margin: 5%;
+    border: #3500d3 5px solid;
+}
+@keyframes disappear {
+    0% {
+        opacity: 0%;
+    }
+    50% {
+        opacity: 100%;
+
+    }
+    100% {
+        opacity: 0%;
+    }
+
+} 
+@keyframes rotate {
+    0% {
+        transform:rotate(72deg)
+    }
+    25% {
+        transform:rotate(144deg)
+    }
+    50% {
+        transform:rotate(216deg)
+    }
+    75% {
+        transform:rotate(288deg)
+    }
+    100% {
+        transform:rotate(360deg)
+    }
+}
+@keyframes slide {
+  0% {
+    transform:translate(0,0);
+  }
+  50% {
+    transform:translate(50em,0);
+  }
+  100% {
+    transform:translate(100em,0);
+  }
+}
+@keyframes enlarge {
+    0% {
+        transform:scale(1);
+    }
+    50% {
+        transform:scale(2);
+    }
+    100% {
+        transform:scale(4);
+    }
+}
+.text {
+    animation-name: disappear, rotate;
+    animation-timing-function: linear;
+    animation-duration: 0.3s;
+
+    
+}
+.pixel {
+    animation-name: enlarge,disappear;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+}

@@ -1,0 +1,14 @@
+img {
+      width: 30%;
+      float: left;
+      margin: 1.66%;
+    
+}
+p {
+    margin: 1.66%;
+    border-bottom: 1px rgb(180, 180, 180) solid;
+    font-size: 23px;
+    font-weight: 800;
+    width: 30%;
+    padding-bottom: 1.5%;
+}

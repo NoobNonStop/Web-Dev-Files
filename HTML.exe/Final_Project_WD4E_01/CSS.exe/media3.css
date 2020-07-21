@@ -1,0 +1,31 @@
+body{
+	background-color: #F2F2F2;
+	margin: 1%;
+	padding:1%;
+}
+
+nav{
+	border: 1px solid #06425C;
+	color:#06425C;
+	background-color:#FFFFFF;
+	overflow: auto;
+	padding-left:8%;
+}
+@media all and (min-width: 600px) {
+  
+nav {
+    display: inline-block;
+    width: 10%;
+}
+nav a {
+    display: block;
+
+}
+section {
+    display: inline-block;
+    width: 70%;
+    padding: 2%;
+    margin:2%;
+}
+    
+}

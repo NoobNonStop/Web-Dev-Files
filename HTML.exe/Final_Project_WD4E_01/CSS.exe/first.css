@@ -1,0 +1,17 @@
+/*My first CSS code file*/
+h1 { color : rgb(255, 255, 255);
+        background-color :rgb(0, 0, 0);
+        font-size : 16 px;
+        font-family : monospace;
+        text-align: center;
+      }
+p { color : white;
+    background-color : black;
+    font-size : 8 px;
+    font-family: monospace;
+    text-align: center;
+}
+
+progress { color : rgba(0, 0, 0, 0.959); 
+           background-color : #ffc0cb; 
+         }

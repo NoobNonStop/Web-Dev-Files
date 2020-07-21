@@ -1,0 +1,64 @@
+body {
+    background-color: #f6dadf;
+
+}
+section.page {
+    background-color : #ff4653;
+    color: #ffffff;
+    width: 95%;
+    margin : 2%;
+    padding : 1%;
+   
+    box-shadow: 8px 3px 8px 3px #969696;
+  	-webkit-box-shadow: 4px 3px 8px 1px #969696;
+    
+    
+
+}
+h1 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Oswald' , sans-serif;
+    font-weight: 700;
+}
+h2 {
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Oswald' , sans-serif;
+    font-weight: 600;
+
+}
+h3 {
+    font-size: 18px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Oswald' , sans-serif;
+    font-weight: 500;
+}
+h4 {
+    font-size: 16px;
+    font-family: 'Oswald' , sans-serif;
+    font-weight: 500;
+
+}
+p {
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Oswald' , sans-serif;
+    font-weight: 400;
+}
+ li {
+    font-size: 12px;
+    text-align: lsseft;
+    font-family: 'Oswald' , sans-serif;
+    font-weight: 400;
+}
+footer {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: 'Oswald' , sans-serif;
+    font-weight: 600;
+    text-justify: auto;
+}

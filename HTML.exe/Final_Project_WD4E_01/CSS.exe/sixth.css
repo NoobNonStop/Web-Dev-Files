@@ -1,0 +1,17 @@
+body {
+     background-color : #bbded6;
+     color : #ffb6b9;
+     font-family : Apple Chancery, cursive;
+     font-size : 18 px;
+
+}
+h1 {
+    color : #3e3e3b;
+    font-family : DejaVu Sans Mono, monospace;
+    font-weight : bolder;
+}
+section,footer {
+
+    color : #4c586f;
+    font-weight: bolder;
+}

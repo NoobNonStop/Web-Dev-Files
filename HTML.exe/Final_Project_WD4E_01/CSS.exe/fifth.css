@@ -1,0 +1,17 @@
+body {
+     background-color : #201941;
+     color : white;
+     font-family : monospace;
+     font-size : 18 px;
+     font-weight: bolder;
+     }
+
+h1 {
+    color : pink;
+    font-family : monospace;
+    font-weight : 600;
+    font-size : 36 px; 
+}
+a {
+    color : rgb(247, 197, 89);
+}

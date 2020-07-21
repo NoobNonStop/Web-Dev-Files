@@ -1,0 +1,141 @@
+body {
+    background-color: #272727;
+
+}
+h1,h2 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section {
+         width: 24%;
+         height: 90%;
+         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         font-size: 15px;
+         color: #000000;
+         text-align: center;
+         padding: 2%;
+         margin: 2%;
+         float: left;
+}
+section > p > a {
+    width: 100px;
+    height: 20px;
+    border-radius: 25%;
+    display: block;
+    text-align: center;
+    padding: 3%;
+    margin: 10% 0% 10% 30%;
+    font-weight: bolder;
+    
+
+}
+.Red {
+   border-right: #e85a4f 10px solid;
+    border-bottom: #e85a4f 10px solid;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #e85a4f;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.Red > ul {
+    text-align: left;
+}
+.Red:hover {
+    border-right: #e85a4f 10px solid;
+    border-bottom: #e85a4f 10px solid;
+    border-radius: 20px;
+    background-color: #e85a4f;
+    color: #ffffff;
+} 
+.Red > p > a {
+    background-color: #e85a4f;
+    color: #ffffff;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 1s;
+    
+}
+.Red:hover > p > a {
+    background-color: #ffffff;
+    color: #e85a4f;
+    text-decoration: none;
+
+    
+}
+
+
+.Blue {
+    border-right: #080f5b 10px solid;
+    border-bottom: #080f5b 10px solid;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #080f5b;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.Blue > ul {
+    text-align: left;
+}
+.Blue > p > a {
+    background-color: #080f5b;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-property: all;
+    transition-duration: 1s;
+
+
+    
+}
+.Blue:hover {
+    border-right: #080f5b 10px solid;
+    border-bottom: #080f5b 10px solid;
+    border-radius: 20px;
+    background-color: #080f5b;
+    color: #ffffff;
+}
+.Blue:hover > p > a {
+    background-color: #ffffff;
+    color: #080f5b;
+    text-decoration: none;
+}
+
+.Violet {
+    border-right: #802bb1 10px solid;
+    border-bottom: #802bb1 10px solid;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #802bb1;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.Violet > ul {
+    text-align: left;
+}
+.Violet:hover {
+    border-right: #802bb1 10px solid;
+    border-bottom: #802bb1 10px solid;
+    border-radius: 20px;
+    background-color: #802bb1;
+    color: #ffffff;
+}
+.Violet > p > a {
+    height: 40px;
+    background-color: #802bb1;
+    color: #ffffff;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.Violet:hover > p  > a {
+     background-color: #ffffff;
+     color: #802bb1;
+     text-decoration: none;
+}
+
